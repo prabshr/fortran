@@ -43,8 +43,8 @@ INTEGER i, daysmonth
  do i = 1, tsteps
   mtime = i*dts/3600._wp
   chour = chour + dts/3600._wp
-  if (chour.eq.24._wp) then
-    chour = 0
+  if (chour.ge.24._wp) then
+    chour = chour - 24._wp
     cday = cday + 1
     daysmonth = days_in_month(cmonth)
     !Check for Leap Year
