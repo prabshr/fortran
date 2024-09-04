@@ -19,7 +19,7 @@ REAL(dp)  G2, I2, J2, K2, L2, M2, N2, O2, P2, Q2, R2, S2, T2, U2, V2
 REAL(dp)  AB_val, AB2, AC2
 REAL(wp)  szen
 
-!User Inputs
+!User Inputs (Local Time)
 !------------------------------------------------------------------------
  year = 2016
  month = 10 
